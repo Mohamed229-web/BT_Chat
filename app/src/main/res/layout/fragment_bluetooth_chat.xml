@@ -19,6 +19,7 @@
         android:layout_marginTop="15dp"
         android:src="@drawable/ic_attach_file_black_24dp"
         android:layout_gravity="center"
+        android:visibility="gone"
         />
 
     <LinearLayout
@@ -39,7 +40,7 @@
             android:id="@+id/button_send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#3b5998"
+            android:background="@color/colorPrimary"
             android:text="@string/send"
             android:textColor="#ffffff" />
     </LinearLayout>
