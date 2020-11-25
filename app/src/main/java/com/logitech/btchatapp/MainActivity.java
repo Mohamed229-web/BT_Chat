@@ -507,26 +507,6 @@ public class MainActivity extends AppCompatActivity{
                 }else {
                     Toast.makeText(getApplicationContext(), "Vous n'avez pas choisi d'image", Toast.LENGTH_LONG).show();
                 }
-
-//                if (resultCode==RESULT_OK){
-//                    Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.app_logo);
-//                    ByteArrayOutputStream stream = new ByteArrayOutputStream();
-//                    bitmap.compress(Bitmap.CompressFormat.PNG, 50, stream);
-//                    byte[] imageBytes = stream.toByteArray();
-//
-//                    int subArraySize = 400;
-//
-//                    chatController.write(String.valueOf(imageBytes.length).getBytes());
-//
-//                    for (int i=0; i<imageBytes.length; i+=subArraySize){
-//                        byte[] tempArray;
-//                        tempArray = Arrays.copyOfRange(imageBytes,i,Math.min(imageBytes.length,i+subArraySize));
-//                        chatController.write(tempArray);
-//                    }
-//
-//                }else {
-//                    Toast.makeText(getApplicationContext(), "Vous n'avez pas choisi d'image", Toast.LENGTH_LONG).show();
-//                }
         }
     }
 
