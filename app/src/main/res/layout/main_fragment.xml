@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.WelcomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/welcome_image"
+            android:layout_width="@dimen/image_crea_size"
+            android:layout_height="@dimen/image_crea_size"
+            android:src="@drawable/ic_bluetooth_black_24dp"/>
+
+        <TextView
+            android:id="@+id/welcome_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_title_1"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="@dimen/text_padding"/>
+
+        <TextView
+            android:id="@+id/welcome_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_desc_1"
+            android:paddingStart="@dimen/text_padding"
+            android:paddingEnd="@dimen/text_padding"
+            android:paddingBottom="@dimen/text_padding"
+            android:textSize="@dimen/text_dimen"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/welcome_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/large_text_padding"
+            android:paddingEnd="@dimen/large_text_padding"
+            android:paddingStart="@dimen/large_text_padding"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_round"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

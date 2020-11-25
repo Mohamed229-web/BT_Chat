@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">Vous n\'êtes pas connecté à un appareil</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">Connecting...</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning for Devices...</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan nearby devices</string>
+
+    <!-- Options Menu -->
+
+    <string name="app_name">BT ChatApp</string>
+    <string name="about">
+            BT ChatApp\n
+            BT ChatApp est une application de messagerie par bluetooth réalisée avec Android Studio; elle propose à ses utilisateurs une messagerie rapide, éfficace et gratuite. \n
+            Pour communiquer avec BT ChatApp, pas besoin d\'un  quelconque serveur distant, ce qui respecte la vie privée et l\'intimité de l\'utilisateur ainsi que la sécurité des données.\n
+            Mohamed I. DJIBRILA \n Aïchath A. LAWANI \n \n
+            © COPYRIGHT All right reserved November 2020.
+
+    </string>
+    <string name="welcome_title_1">Discutez avec vos proches</string>
+    <string name="welcome_desc_1">BT ChatApp vous permet de discuter avec un proche en absence de connexion internet</string>
+    <string name="welcome_title_2">Envoie de fichier</string>
+    <string name="welcome_desc_2">BT ChatApp vous permet de joindre des fichiers à vos discussions.</string>
+    <string name="next">Suivant</string>
+    <string name="start">Demarrer</string>
+    <string name="start_now">Scan</string>
+    <string name="scan_text">Votre liste de discussions est vide . Utilisez le bouton scan ci-dessous pour retrouver des amis à proximité pour discuter</string>
+    <string name="UUID">8ce255c0-223a-11e0-ac64-0803450c9a66</string>
+    <string name="saisissez_votre_message">Message</string>
+    <string name="about_txt">A propos</string>
+    <string name="visible">Se rendre visible</string>
+    <string name="profil">Changer Mon Nom</string>
+    <string name="scan_txt">Scan</string>
+    <string name="cancel_txt">Quitter</string>
+
+</resources>

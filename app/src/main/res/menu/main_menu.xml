@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/scan_btn"
+        android:title="@string/scan_txt"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ecoute"
+        android:title="Réception"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/profil"
+        android:title="@string/profil"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/visible"
+        android:title="@string/visible"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about_txt"
+        app:showAsAction="never" />
+
+
+</menu>
